@@ -22,6 +22,26 @@ body {
     margin-bottom: 2rem;
     margin: 10px;
     box-sizing: border-box;
+    color: transparent;
+    -webkit-text-stroke: 1px  rgb(28, 40, 118);
+    position: relative;
+}
+
+.navbar-brand ::before{ 
+    content: ''Dapps Authentication'';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(82, 54, 223);
+    border-right: 8px solid rgb(82, 54, 223);
+    transition: 1s ease-in-out;
+}
+
+.navbar-brand Dapps Authentication ::before{
+    width: 100%;
+    filter : drop-shadow(0 0 20px darkman)
+
 }
 
 .brandservice {
