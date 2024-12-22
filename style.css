@@ -31,7 +31,7 @@ html {
 
 body {
   background-color: var(--background-color1);
-  background: url("./1z.jpg") center/cover;
+  background: url("./11z.jpg") center/cover;
   color: rgba(253, 245, 201, 0.849);
   font-family: Montserrat, sans-serif;
   overflow-x: hidden;
@@ -140,7 +140,7 @@ body {
 
 .selection {
   background: var(--sec-back);
-  background: url("./1z.jpg") center/cover;
+  background: url("./11z.jpg") center/cover;
 }
 #btn-select {
   padding-top: 125px ;
@@ -267,7 +267,7 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .white {
-  background: #170d28;
+  background: #1b022f;
   margin-top: -2rem;
 }
 .header {
@@ -682,13 +682,7 @@ label {
 
 
 @media only screen and (max-width:400px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 90%;
-  }
-  
+
 }
 
 @media (min-width:550px) {
